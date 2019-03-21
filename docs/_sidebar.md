@@ -25,4 +25,4 @@
   * [文件嵌入<sup style="color:red">(new)<sup>](/embed-files.md)
 
 * [Awesome docsify](/awesome.md)
-* [Changelog](/changelog.md)
+* [Changelog](/CHANGELOG.md)
