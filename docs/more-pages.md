@@ -32,7 +32,7 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 <script>
   window.$docsify = {
     loadSidebar: true
-  }
+  };
 </script>
 <script src="//unpkg.com/docsify"></script>
 ```
@@ -40,8 +40,8 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 接着创建 `_sidebar.md` 文件，内容如下
 
 ```markdown
-* [首页](zh-cn/)
-* [指南](zh-cn/guide)
+- [首页](zh-cn/)
+- [指南](zh-cn/guide)
 ```
 
 !> 需要在文档根目录创建 `.nojekyll` 命名的空文件，阻止 GitHub Pages 忽略命名是下划线开头的文件。
@@ -55,9 +55,9 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
   window.$docsify = {
     loadSidebar: true,
     alias: {
-      '/.*/_sidebar.md': '/_sidebar.md'
+      "/.*/_sidebar.md": "/_sidebar.md"
     }
-  }
+  };
 </script>
 ```
 
@@ -70,7 +70,7 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
   window.$docsify = {
     loadSidebar: true,
     subMaxLevel: 2
-  }
+  };
 </script>
 <script src="//unpkg.com/docsify"></script>
 ```
