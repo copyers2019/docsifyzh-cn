@@ -5,7 +5,7 @@
 ```bash
 npm i docsify-cli -g
 ```
-
+[cli文档](./docs/cli.md)
 ## 重要的文件
 
 ```text
